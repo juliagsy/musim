@@ -36,7 +36,8 @@ display(gen_image_d)
 
 Generated image:
 
-![generated image 1](examples/img_2.png)
+<!-- ![generated image 1](examples/img_2.png) -->
+<img width="50%" src="examples/img_2.png">
 
 
 ### Example 2
@@ -60,4 +61,5 @@ display(gen_image_d)
 
 Generated image:
 
-![generated image 2](examples/img_5.png)
+<!-- ![generated image 2](examples/img_5.png) -->
+<img width="50%" src="examples/img_5.png">
