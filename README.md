@@ -6,11 +6,11 @@
 
 ```python
 from transformers import AutoProcessor
-from musim.hf import MusImPipeline
+from diffusers import DiffusionPipeline
 
 ast_proc = AutoProcessor.from_pretrained("MIT/ast-finetuned-audioset-10-10-0.4593", low_cpu_mem_usage=True)
 
-m2i = MusImPipeline.from_pretrained("juliagsy/musim")
+m2i = DiffusionPipeline.from_pretrained("juliagsy/musim", custom_pipeline="juliagsy/musim", trust_remote_code=True)
 ```
 
 ## Music-conditioned Image Generation
@@ -32,19 +32,19 @@ display(gen_image_d)
 ```
 
 
-### Example 1
+### Generated Examples 
 
-[Input wav](examples/wav_5.wav)
+As music cannot be presented here, some results of the generation are shown by themselves below.
 
-Generated image:
+Example generation 1:
+
+<img width="40%" src="examples/img_1.png">
+
+
+Example generation 2:
 
 <img width="40%" src="examples/img_2.png">
 
+Example generation 3:
 
-### Example 2
-
-[Input wav](examples/wav_5.wav)
-
-Generated image:
-
-<img width="40%" src="examples/img_5.png">
+<img width="40%" src="examples/img_3.png">
