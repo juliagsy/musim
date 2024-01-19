@@ -4,7 +4,7 @@
 
 MusIm is introduced as the first open-source music-conditioned image Generative AI. A diffusion-based solution is approached in the architecture design of MusIm, with support from the proven image generation model - Latent Diffusion. The architecture is shown below:
 
-<img style="{background-color: white}" width="40%" src="examples/arch.png">
+<img width="40%" src="examples/arch.png">
 
 ## Usage
 
