@@ -52,3 +52,6 @@ Example generation 2:
 Example generation 3:
 
 <img width="40%" src="examples/img_3.png">
+
+
+## Citations
