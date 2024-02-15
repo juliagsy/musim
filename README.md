@@ -44,7 +44,6 @@ Example generation 1:
 
 <img width="40%" src="examples/img_1.png">
 
-
 Example generation 2:
 
 <img width="40%" src="examples/img_2.png">
@@ -54,4 +53,13 @@ Example generation 3:
 <img width="40%" src="examples/img_3.png">
 
 
-## Citations
+## Citation
+
+```
+@article{goh2024generative,
+  title={Generative Artificial Intelligence (AI) for Music},
+  author={Goh, Julia and Treleaven, Philip},
+  journal={??},
+  year={2024}
+}
+```
