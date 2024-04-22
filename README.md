@@ -52,14 +52,3 @@ Example generation 3:
 
 <img width="40%" src="examples/img_3.png">
 
-
-## Citation
-
-```
-@article{goh2024generative,
-  title={Generative Artificial Intelligence (AI) for Music},
-  author={Goh, Julia and Treleaven, Philip},
-  journal={??},
-  year={2024}
-}
-```
